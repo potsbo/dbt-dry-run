@@ -4,8 +4,8 @@ from dataclasses import asdict, dataclass, field
 from typing import Any, Dict, Optional
 
 from dbt.adapters.base import BaseAdapter
-from dbt.adapters.factory import get_adapter, register_adapter, reset_adapters
 from dbt.adapters.contracts.connection import Connection
+from dbt.adapters.factory import get_adapter, register_adapter, reset_adapters
 from dbt.config import RuntimeConfig
 from dbt.flags import set_from_args
 from dbt.mp_context import get_mp_context
